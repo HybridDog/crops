@@ -377,4 +377,4 @@ end
 dofile(modpath .. "/cooking.lua")
 dofile(modpath .. "/mapgen.lua")
 
-minetest.log("action", "[crops] loaded.")
+minetest.log("info", "[crops] loaded.")
