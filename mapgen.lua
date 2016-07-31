@@ -1,5 +1,5 @@
 
-local mgname = minetest.get_mapgen_setting"mgname"
+local mgname = minetest.get_mapgen_setting"mg_name"
 if mgname == "v6" then
 	-- not supported at this point
 elseif mgname ~= "singlenode" then
